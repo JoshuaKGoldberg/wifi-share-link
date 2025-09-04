@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.1.2](https://github.com/JoshuaKGoldberg/wifi-share-link/compare/0.1.1...0.1.2) (2025-09-04)
+
+### Bug Fixes
+
+- rename interface to WifiShareLinkOptions ([75f92b5](https://github.com/JoshuaKGoldberg/wifi-share-link/commit/75f92b5ad154a359728b5b8c415f3abdf92b84b1))
+
 ## [0.1.1](https://github.com/JoshuaKGoldberg/wifi-share-link/compare/0.1.0...0.1.1) (2025-09-04)
 
 ### Bug Fixes
