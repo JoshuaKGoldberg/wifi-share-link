@@ -14,8 +14,8 @@ jobs:
 
             The release is available on:
 
-            * [GitHub releases](https://github.com/JoshuaKGoldberg/wifi-anchor-href/releases/tag/{release_tag})
-            * [npm package (@latest dist-tag)](https://www.npmjs.com/package/wifi-anchor-href/v/${{ env.npm_version }})
+            * [GitHub releases](https://github.com/JoshuaKGoldberg/wifi-share-link/releases/tag/{release_tag})
+            * [npm package (@latest dist-tag)](https://www.npmjs.com/package/wifi-share-link/v/${{ env.npm_version }})
 
             Cheers! 📦🚀
 
