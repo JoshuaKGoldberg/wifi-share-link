@@ -1,4 +1,4 @@
-export interface HrefGenerationOptions {
+export interface LinkGenerationOptions {
 	encryption: string;
 	hidden?: boolean | undefined;
 	password?: string | undefined;
@@ -10,7 +10,7 @@ export function generateWifiShareLink({
 	hidden,
 	password,
 	ssid,
-}: HrefGenerationOptions) {
+}: LinkGenerationOptions) {
 	return [
 		"WIFI:",
 		`T:${encryption};`,
