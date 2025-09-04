@@ -25,6 +25,8 @@ npm i wifi-share-link
 ```
 
 ```ts
+import { generateWifiShareLink } from "wifi-share-link";
+
 // "WIFI:T:None;S:My Network;;"
 generateWifiShareLink({
 	ssid: "My Network",
