@@ -56,7 +56,9 @@ jobs:
       - uses: actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955 # v4
       - uses: ./.github/actions/prepare
       - run: pnpm run test --coverage
-      - if: always()
+      - env:
+          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+        if: always()
         uses: codecov/codecov-action@v3
   type_check:
     name: Type Check
