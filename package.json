@@ -1,6 +1,6 @@
 {
 	"name": "wifi-share-link",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Generates shareable HTML anchor link strings for wifi credentials. 📶",
 	"repository": {
 		"type": "git",
