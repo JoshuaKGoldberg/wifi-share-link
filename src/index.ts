@@ -1,4 +1,4 @@
-export interface LinkGenerationOptions {
+export interface WifiShareLinkOptions {
 	encryption: string;
 	hidden?: boolean | undefined;
 	password?: string | undefined;
@@ -10,7 +10,7 @@ export function generateWifiShareLink({
 	hidden,
 	password,
 	ssid,
-}: LinkGenerationOptions) {
+}: WifiShareLinkOptions) {
 	return [
 		"WIFI:",
 		`T:${encryption};`,
