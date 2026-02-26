@@ -93,8 +93,8 @@ importers:
         specifier: 19.2.0
         version: 19.2.0(@types/node@24.10.0)(magicast@0.3.5)
       sentences-per-line:
-        specifier: 0.3.0
-        version: 0.3.0
+        specifier: 0.5.1
+        version: 0.5.1
       tsdown:
         specifier: 0.15.0
         version: 0.15.0(oxc-resolver@11.18.0)(typescript@5.9.2)
@@ -1502,6 +1502,7 @@ packages:
   basic-ftp@5.1.0:
     resolution: {integrity: sha512-RkaJzeJKDbaDWTIPiJwubyljaEPwpVWkm9Rt5h9Nd6h7tEXTJ3VB4qxdZBioV7JO5yLUaOKwz7vDOzlncUsegw==}
     engines: {node: '>=10.0.0'}
+    deprecated: Security vulnerability fixed in 5.2.0, please upgrade
 
   before-after-hook@4.0.0:
     resolution: {integrity: sha512-q6tR3RPqIB1pMiTRMFcZwuG5T8vwp+vUvEG0vuI6B+Rikh5BfPp2fQ82c925FOs+b0lcFQ8CFrL+KbilfZFhOQ==}
@@ -2564,10 +2565,6 @@ packages:
     engines: {node: '>=20'}
     hasBin: true
 
-  markdownlint-rule-helpers@0.28.0:
-    resolution: {integrity: sha512-qBOQWESmc/yTNe6nVu3D7AU7pFg2e7T5svbQI+S7rocw4g4xZ3GHerKPl0Rw0cx4fnAViEdzoAcbrxeuXUCEAA==}
-    engines: {node: '>=18'}
-
   markdownlint@0.40.0:
     resolution: {integrity: sha512-UKybllYNheWac61Ia7T6fzuQNDZimFIpCg2w6hHjgV1Qu0w1TV0LlSgryUGzM0bkKQCBhy2FDhEELB73Kb0kAg==}
     engines: {node: '>=20'}
@@ -3066,9 +3063,9 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
-  sentences-per-line@0.3.0:
-    resolution: {integrity: sha512-/cSQgaLDEmed+AIC2KAd1A5k4sy8bbWy3ObBDUE2+JmiwolTBuc87TlwlTSnBJVPa7+zfGv28J63xzznFRv5tQ==}
-    engines: {node: '>=18'}
+  sentences-per-line@0.5.1:
+    resolution: {integrity: sha512-wHjivBJ2wSVqkFDDiEldQBq8NglT3v9jMssygPZJDSQYZpYuWOK20QUfKBIavX0ZpD3S69ABqzpM002QgSFvew==}
+    engines: {node: '>=22.14.0'}
 
   sh-syntax@0.5.8:
     resolution: {integrity: sha512-JfVoxf4FxQI5qpsPbkHhZo+n6N9YMJobyl4oGEUBb/31oQYlgTjkXQD8PBiafS2UbWoxrTO0Z5PJUBXEPAG1Zw==}
@@ -5888,8 +5885,6 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  markdownlint-rule-helpers@0.28.0: {}
-
   markdownlint@0.40.0:
     dependencies:
       micromark: 4.0.2
@@ -6582,9 +6577,7 @@ snapshots:
 
   semver@7.7.4: {}
 
-  sentences-per-line@0.3.0:
-    dependencies:
-      markdownlint-rule-helpers: 0.28.0
+  sentences-per-line@0.5.1: {}
 
   sh-syntax@0.5.8:
     dependencies:
