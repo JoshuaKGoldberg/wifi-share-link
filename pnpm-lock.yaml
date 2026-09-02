@@ -39,8 +39,8 @@ importers:
         specifier: 9.39.0
         version: 9.39.0(jiti@2.7.0)(supports-color@7.2.0)
       eslint-plugin-jsdoc:
-        specifier: 64.2.0
-        version: 64.2.0(eslint@9.39.0(jiti@2.7.0)(supports-color@7.2.0))(supports-color@7.2.0)
+        specifier: 64.3.0
+        version: 64.3.0(eslint@9.39.0(jiti@2.7.0)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.2)
       eslint-plugin-jsonc:
         specifier: 3.4.0
         version: 3.4.0(eslint@9.39.0(jiti@2.7.0)(supports-color@7.2.0))
@@ -1769,8 +1769,8 @@ packages:
     peerDependencies:
       eslint: '>=8'
 
-  eslint-plugin-jsdoc@64.2.0:
-    resolution: {integrity: sha512-z3zGmJoPhOdKnxzQ3R+8MZeJjW8vrRW8r7sYp/ErBp8K9+05RIa6vWXtbEGr7D1obBHk64LdKyLHoMLSzHFINA==}
+  eslint-plugin-jsdoc@64.3.0:
+    resolution: {integrity: sha512-mbhng6u5MJSYo1KZgtU8hDXyATnsKMF9O8Sb6Hzdb1I2NJcN3gPZWU+SOcfrhoOYCHSKQ6p7ECXfuCV5yVAGiw==}
     engines: {node: ^22.22.2 || >=24.15.0}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0
@@ -4752,10 +4752,11 @@ snapshots:
       eslint: 9.39.0(jiti@2.7.0)(supports-color@7.2.0)
       eslint-compat-utils: 0.5.1(eslint@9.39.0(jiti@2.7.0)(supports-color@7.2.0))
 
-  eslint-plugin-jsdoc@64.2.0(eslint@9.39.0(jiti@2.7.0)(supports-color@7.2.0))(supports-color@7.2.0):
+  eslint-plugin-jsdoc@64.3.0(eslint@9.39.0(jiti@2.7.0)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.2):
     dependencies:
       '@es-joy/jsdoccomment': 0.95.1
       '@es-joy/resolve.exports': 1.2.0
+      '@typescript-eslint/utils': 8.68.0(eslint@9.39.0(jiti@2.7.0)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.2)
       are-docs-informative: 0.1.1
       comment-parser: 1.4.8
       debug: 4.4.3(supports-color@7.2.0)
@@ -4771,6 +4772,7 @@ snapshots:
       to-valid-identifier: 1.0.0
     transitivePeerDependencies:
       - supports-color
+      - typescript
 
   eslint-plugin-jsonc@3.4.0(eslint@9.39.0(jiti@2.7.0)(supports-color@7.2.0)):
     dependencies:
