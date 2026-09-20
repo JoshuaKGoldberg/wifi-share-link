@@ -54,6 +54,15 @@ generateWifiShareLink({
 });
 ```
 
+## What Is This?
+
+`WIFI:` strings are the de facto format for WiFi credentials in QR codes, as scanned by Android and iOS cameras.
+There is no formal RFC; the canonical references are:
+
+- [Wi-Fi Alliance WPA3™ Specification](https://www.wi-fi.org/file/wpa3-specification), section 7 ("Wi-Fi QR Code")
+- [ZXing wiki: Barcode Contents › Wi-Fi Network config](https://github.com/zxing/zxing/wiki/Barcode-Contents#wi-fi-network-config-android-ios-11)
+- [Super User: What is the `WIFI:` QR code format?](https://superuser.com/a/1752085)
+
 ## Development
 
 See [`.github/CONTRIBUTING.md`](./.github/CONTRIBUTING.md), then [`.github/DEVELOPMENT.md`](./.github/DEVELOPMENT.md).
