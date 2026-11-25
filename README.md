@@ -1,7 +1,7 @@
 <h1 align="center">wifi-share-link</h1>
 
 <p align="center">
-	Generates shareable <code>WIFI://</code> link strings for WiFi credentials.
+	Generates shareable <code>WIFI:</code> link strings for WiFi credentials.
 	📶
 </p>
 
@@ -27,7 +27,7 @@ npm i wifi-share-link
 ```ts
 import { generateWifiShareLink } from "wifi-share-link";
 
-// "WIFI:T:None;S:My Network;;"
+// "WIFI:T:nopass;S:My Network;;"
 generateWifiShareLink({
 	ssid: "My Network",
 });

@@ -1,7 +1,7 @@
 {
 	"name": "wifi-share-link",
 	"version": "0.1.3",
-	"description": "Generates shareable WIFI:// link strings for WiFi credentials. 📶",
+	"description": "Generates shareable WIFI: link strings for WiFi credentials. 📶",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/JoshuaKGoldberg/wifi-share-link.git"
