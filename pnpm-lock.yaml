@@ -200,8 +200,8 @@ importers:
         specifier: 0.10.0
         version: 0.10.0
       create-typescript-app:
-        specifier: 2.87.21
-        version: 2.87.21(bingo-systems@0.9.1)(supports-color@7.2.0)(typescript@6.0.2)
+        specifier: 2.87.23
+        version: 2.87.23(bingo-systems@0.9.1)(supports-color@7.2.0)(typescript@6.0.2)
       cspell:
         specifier: 10.5.2
         version: 10.5.2
@@ -2009,8 +2009,8 @@ packages:
     engines: {node: '>=22'}
     hasBin: true
 
-  create-typescript-app@2.87.21:
-    resolution: {integrity: sha512-AlJX8E+BkIcYFpwIAlVpz5dP98dDeZYJYTIkIS6YwS+NRdgeurDazZUYbHLUMRGzvBPq2uVTy6GtObmOV1MiQw==}
+  create-typescript-app@2.87.23:
+    resolution: {integrity: sha512-JzKQXDelqPeDjyQM2dM0dpiRa4y1id9Dz/vFAtdnpZc5YzPoTTfda+8LFtuqOiLkFi4mgx68kbJiBrDuR3bK+w==}
     engines: {node: ^22.22.2 || ^24.15.0 || >=26.0.0}
     hasBin: true
 
@@ -5838,7 +5838,7 @@ snapshots:
       conventional-commits-filter: 6.0.1
       conventional-commits-parser: 7.1.2
 
-  create-typescript-app@2.87.21(bingo-systems@0.9.1)(supports-color@7.2.0)(typescript@6.0.2):
+  create-typescript-app@2.87.23(bingo-systems@0.9.1)(supports-color@7.2.0)(typescript@6.0.2):
     dependencies:
       '@prettier/sync': 0.6.1(prettier@3.9.6)
       '@typescript-eslint/typescript-estree': 8.73.0(supports-color@7.2.0)(typescript@6.0.2)
