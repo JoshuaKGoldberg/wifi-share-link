@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.1.3](https://github.com/JoshuaKGoldberg/wifi-share-link/compare/0.1.2...0.1.3) (2026-11-25)
+
+### Bug Fixes
+
+- bump to create-typescript-app@2.87.23 ([#369](https://github.com/JoshuaKGoldberg/wifi-share-link/issues/369)) ([2210d27](https://github.com/JoshuaKGoldberg/wifi-share-link/commit/2210d271f0733824fa428a3cb97ccf415e526e5c)), closes [#368](https://github.com/JoshuaKGoldberg/wifi-share-link/issues/368)
+
 ## [0.1.2](https://github.com/JoshuaKGoldberg/wifi-share-link/compare/0.1.1...0.1.2) (2025-09-04)
 
 ### Bug Fixes
