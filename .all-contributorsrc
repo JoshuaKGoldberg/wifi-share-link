@@ -12,7 +12,8 @@
         "infra",
         "maintenance",
         "projectManagement",
-        "tool"
+        "tool",
+        "bug"
       ],
       "login": "JoshuaKGoldberg",
       "name": "Josh Goldberg ✨",
@@ -26,5 +27,6 @@
   ],
   "projectName": "wifi-share-link",
   "projectOwner": "JoshuaKGoldberg",
-  "repoType": "github"
+  "repoType": "github",
+  "commitConvention": "angular"
 }
