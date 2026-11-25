@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 
-import { generateWifiShareLink } from "./index.js";
+import { generateWifiShareLink } from "./index.ts";
 
 describe(generateWifiShareLink, () => {
 	it("generates a sparse href when there are no password or hidden", () => {

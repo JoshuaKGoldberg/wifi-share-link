@@ -26,6 +26,5 @@
   ],
   "projectName": "wifi-share-link",
   "projectOwner": "JoshuaKGoldberg",
-  "repoType": "github",
-  "commitConvention": "angular"
+  "repoType": "github"
 }

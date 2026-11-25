@@ -1,5 +1,5 @@
 export interface WifiShareLinkOptions {
-	encryption: string;
+	encryption?: string | undefined;
 	hidden?: boolean | undefined;
 	password?: string | undefined;
 	ssid: string;

@@ -2,12 +2,25 @@
 	"dictionaries": ["npm", "node", "typescript"],
 	"ignorePaths": [
 		".all-contributorsrc",
-		".github",
+		"/_tmp_*",
 		"CHANGELOG.md",
 		"coverage",
-		"lib",
+		"dist",
 		"node_modules",
 		"pnpm-lock.yaml"
 	],
-	"words": ["correcthorsebatterystaple", "nopass"]
+	"words": [
+		"JoshuaKGoldberg",
+		"MatteoGabriele",
+		"agentscan",
+		"apexskier",
+		"correcthorsebatterystaple",
+		"mshick",
+		"nopass",
+		"octoguide",
+		"peakoss",
+		"stefanzweifel",
+		"zizmor",
+		"zizmorcore"
+	]
 }
